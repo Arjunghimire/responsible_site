@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:601px) and (max-width:1024px)
+{
+
+body
+{
+	margin-top:10px;
+	margin:0px auto;
+	width:auto;
+}
+#headerDiv
+{
+	height:100px;
+	border-radius:10px;
+	background-color:#333;
+
+}
+#headerDiv > a
+{
+	text-decoration:none;
+}
+#headerDiv >a  h1
+{
+	padding:20px;
+	color:white;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.navigationDiv
+{
+	height:51px;
+	background-color:#C63;
+	border-radius:10px;
+	width:100%;
+}
+.navigationDiv ul
+{
+	list-style:none;
+}
+.navigationDiv li
+{
+	display:inline;
+	float:left;
+}
+.navigationDiv a 
+{
+	color:#FFFFFF;
+	background-color:#C00;
+	font-family:Arial, Helvetica, sans-serif;
+	display:inline-block;
+	padding:15.5px 20px;
+	text-align:center;
+	text-decoration:none;
+
+
+}
+
+#leftDiv
+{
+	width:60%;
+	float:left;
+	height:925px;
+	
+}
+
+#rightfirstDiv
+{
+	width:39%;
+	float:right;
+	height:460px;	
+}
+#rightsecondDiv
+{
+	width:39%;
+	float:right;
+	height:460px;	
+
+}
+#bottomDiv
+{
+	clear:all;
+    width:100%;
+}
+	
+}

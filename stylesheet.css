@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin-top:10px;
+	margin:0px auto;
+	width:1000px;
+}
+#headerDiv
+{
+	height:100px;
+	border-radius:10px;
+	background-color:#000000;
+	
+}
+#headerDiv
+{
+    transition:2s;
+	transition-property:background-color;
+	-webkit-transition:2s;
+    -webkit-transition-property:background-color;
+}
+#headerDiv > a
+{
+	text-decoration:none;
+}
+#headerDiv >a  h1
+{
+	padding:20px;
+	color:white;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.navigationDiv
+{
+	height:51px;
+	background-color:#C63;
+	border-radius:10px;
+}
+.navigationDiv ul
+{
+	list-style:none;
+}
+.navigationDiv li
+{
+	display:inline;
+	float:left;
+}
+.navigationDiv a 
+{
+	color:#FFFFFF;
+	background-color:#C00;
+	font-family:Arial, Helvetica, sans-serif;
+	display:inline-block;
+	padding:15.5px 20px;
+	text-align:center;
+	text-decoration:none;
+
+
+}
+.navigationDiv a:hover
+{
+	background-color:#906;
+}
+#leftDiv
+{
+	width:595px;
+	height:600px;
+	background-color:#906;
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+	border-radius:10px;
+
+}
+#leftDiv > h3
+{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:20px;
+	
+}
+#leftDiv > article
+{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:20px;
+	padding-right:20px;
+}
+#rightfirstDiv
+{
+	width:400px;
+	height:300px;
+	float:right;
+	margin-top:10px;
+	background-color:#993;
+	border-radius:10px;
+
+}
+#rightfirstDiv > h3
+{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:20px;
+	
+}
+#rightfirstDiv > article
+{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:20px;
+	padding-right:20px;
+}
+#rightsecondDiv
+{
+	width:400px;
+	border-radius:10px;
+	height:295px;
+	float:right;
+	margin-top:5px;
+	background-color:#369;
+	clear:right;
+
+}
+#rightsecondDiv > h3
+{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:20px;
+	
+}
+#rightsecondDiv > article
+{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:20px;
+	padding-right:20px;
+}
+#bottomDiv
+{
+	border-radius:10px;
+	height:95px;
+	float:right;
+	margin-top:5px;
+	background-color:#9C0;
+	clear:all;
+	width:1000px;
+
+}
+#bottomDiv > address
+{
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:20px;
+	
+}
+
+
+
+
